@@ -14,6 +14,7 @@ export default function HomeView() : JSX.Element{
             <img src={logo} className="App-logo" alt="logo" />
             <p>we use aws copilot for deployment and its pipeline</p>
             <p className='navigate' onClick={navigateToAboutView}>click here to go to about page</p>
+            <p>this is an edit to see if aws copilot's pipeline works with dockerhub images</p>
         </header>
         </div>        
     )
