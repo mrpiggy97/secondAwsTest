@@ -19,14 +19,15 @@ export default function AboutView() : JSX.Element{
     }
     return(
         <div className="App">
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>this app is supposed to update on git push</p>
-        <p>it uses an existing image</p>
-        <p className='navigate' onClick={navigateToHomeView}>click here to go home</p>
-        <p>{greeting}</p>
-        <p onClick={changeGreeting} className='navigate'>click here to change greeting</p>
-        </header>
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo" />
+                <p>this app is supposed to update on git push</p>
+                <p>it uses an existing image</p>
+                <p className='navigate' onClick={navigateToHomeView}>click here to go home</p>
+                <p>{greeting}</p>
+                <p onClick={changeGreeting} className='navigate'>click here to change greeting</p>
+                <p>work dammit</p>
+            </header>
         </div>  
     )
 }
