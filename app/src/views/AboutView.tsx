@@ -6,7 +6,7 @@ import {useNavigate,NavigateFunction} from 'react-router-dom'
 export default function AboutView() : JSX.Element{
     const [greeting,setGreeting] = useState("nyahallo")
     let navigator : NavigateFunction = useNavigate()
-    const navigateToHomeView = () => {
+    const navigateToHomeView = () : void => {
         navigator("/")
     }
     const changeGreeting = (e : React.MouseEvent) : void => {
