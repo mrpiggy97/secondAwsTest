@@ -14,6 +14,7 @@ export default function HomeView() : JSX.Element{
             <img src={logo} className="App-logo" alt="logo" />
             <p>we use aws copilot for deployment and its pipeline</p>
             <p>we also make use of aws ecr to store the image for this app</p>
+            <p>this is an edit made possible to aws copilot's pipeline (which uses codeDeploy)</p>
             <p className='navigate' onClick={navigateToAboutView}>click here to go to about page</p>
         </header>
         </div>        
