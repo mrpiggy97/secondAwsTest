@@ -1,5 +1,5 @@
 services:
   aws-test:
-    image: fabianjesusrivas/testing-aws:v2.0.1
+    image: 695145859797.dkr.ecr.us-east-2.amazonaws.com/testing-aws:v2.0.4
     ports:
       - 5000:5000
