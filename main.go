@@ -1,18 +1,14 @@
 package main
 
 import (
-	"fmt"
-	"net/http"
-	"time"
+	"sync"
 
-	"github.com/julienschmidt/httprouter"
+	"github.com/mrpiggy97/secondAwsTest/servers"
 )
 
 func main() {
-	var router *httprouter.Router = httprouter.New()
-	var currentTime time.Time = time.Now()
-	message := fmt.Sprintf("server started listening %v", currentTime)
-	fmt.Println(message)
-	router.ServeFiles("/*filepath", http.Dir("./app/build"))
-	http.ListenAndServe("0.0.0.0:5000", router)
+	var waiter *sync.WaitGroup = new(sync.WaitGroup)
+	waiter.Add(1)
+	servers.RunServers()
+	waiter.Wait()
 }
