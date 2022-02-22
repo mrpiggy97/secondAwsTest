@@ -17,7 +17,7 @@ http:
 
 # Configuration for your containers and service.
 image:
-  location: 695145859797.dkr.ecr.us-east-2.amazonaws.com/testing-aws:v2.0.2
+  location: fabianjesusrivas/testing-aws:v3.0.0
   # Port exposed through your container to route traffic to it.
   port: 5000
 
