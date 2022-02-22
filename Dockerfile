@@ -1,7 +1,7 @@
 FROM node:lts AS builder
 WORKDIR /secondAwsTest
 COPY . /secondAwsTest
-ENV REACT_APP_BASE_URL="https://frontend.test.mysite.fabianjrivasportfolio:8000"
+ENV REACT_APP_BASE_URL="https://frontend.test.mysite.fabianjrivasportfolio.com:8000"
 RUN cd app && yarn install && yarn build
 
 FROM golang:alpine
