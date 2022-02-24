@@ -48,6 +48,14 @@ github.com/julienschmidt/httprouter v1.3.0 h1:U0609e9tgbseu3rBINet9P48AI/D3oJs4d
 github.com/julienschmidt/httprouter v1.3.0/go.mod h1:JR6WtHb+2LUe8TCKY3cZOxFyyO8IZAc4RVcycCCAKdM=
 github.com/mrpiggy97/testingAwsBackend v1.0.0 h1:HFuT6xWGgqb4K7vaEC7AK5MCwqN6cEX5rJD4wNvbtIg=
 github.com/mrpiggy97/testingAwsBackend v1.0.0/go.mod h1:v3tjc/9RORcufXhmg3y487qaKmiVLhm8xQCvBY+AxkE=
+github.com/mrpiggy97/testingAwsBackend v1.0.1 h1:1aDLefcmaS0hdRimAlWNUp5BOqzM9RW0oiBaKSoL8Ws=
+github.com/mrpiggy97/testingAwsBackend v1.0.1/go.mod h1:v3tjc/9RORcufXhmg3y487qaKmiVLhm8xQCvBY+AxkE=
+github.com/mrpiggy97/testingAwsBackend v1.0.2 h1:pi/m9aYOanXATjQDY1fn3G4mV262C1ZF3KY5a1v+ZOk=
+github.com/mrpiggy97/testingAwsBackend v1.0.2/go.mod h1:v3tjc/9RORcufXhmg3y487qaKmiVLhm8xQCvBY+AxkE=
+github.com/mrpiggy97/testingAwsBackend v1.0.3 h1:ZmA1+wAGhKDGWVmXL+DhiOoqGEAVgVWevpt6lkJR4kE=
+github.com/mrpiggy97/testingAwsBackend v1.0.3/go.mod h1:v3tjc/9RORcufXhmg3y487qaKmiVLhm8xQCvBY+AxkE=
+github.com/mrpiggy97/testingAwsBackend v1.0.4 h1:PJTCaW7o97wbLrOysbt0skMOF+xa60UEvBEcU3Ghs9U=
+github.com/mrpiggy97/testingAwsBackend v1.0.4/go.mod h1:v3tjc/9RORcufXhmg3y487qaKmiVLhm8xQCvBY+AxkE=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
