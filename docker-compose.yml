@@ -1,6 +1,5 @@
 services:
   aws-test:
-    image: fabianjesusrivas/testing-aws:v3.0.0
+    image: fabianjesusrivas/testing-aws:v2.1.2
     ports:
       - 5000:5000
-      - 8000:8000
