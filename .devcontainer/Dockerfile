@@ -6,7 +6,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/go:0-${VARIANT}
 
 # [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
 ARG NODE_VERSION="none"
-ENV REACT_APP_BASE_URL="http://localhost:8000"
+ENV REACT_APP_BASE_URL="http://localhost:5000"
 ENV ALLOWED_CROSS_SITE_ORIGIN="http://localhost:5000"
 # windows machines will throw pending changes that don't exist if this is not run
 RUN git config --global core.autocrlf input
